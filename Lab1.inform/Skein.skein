@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version )</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Lab1</command>
+        <result xml:space="preserve">
+
+
+Isolated Chamber
+An Interactive Fiction by Filip Conic
+Release 1 / Serial number 240411 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+
+Chamber
+You jolt up at the sound thunder. You find yourself on a bare raggedy mattress that looks about 100 years old. The mattress is sitting on a metal bed frame. The room around you isn't any nicer than the bed. Plain grey concrete everywhere you look, except for the tiny spotlight in the middle of the ceiling allowing in the scarce bit of light provided by the rainy and overcast day. On the other side of the room you see another plain metal table. Woohoo, how exciting!
+
+You can see a metal bed frame (on which is a raggedy old mattress) and a metal table (on which is an old wooden dreidel) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+            <child nodeId="node-1047"></child>
+            <child nodeId="node-1062"></child>
+            <child nodeId="node-1007"></child>
+            <child nodeId="node-1040"></child>
+            <child nodeId="node-1057"></child>
+            <child nodeId="node-1033"></child>
+            <child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">x room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">x chamber</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">x self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that shimmer in the light. It feels oddly out of place here.
+
+The inscriptions catch your eye. They're symbols from a language lost to time, yet they seem to spark a deep memory within you. You can't help but spin the dreidel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">take dreidel</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that shimmer in the light. It feels oddly out of place here.
+
+The inscriptions catch your eye. They're symbols from a language lost to time, yet they seem to spark a deep memory within you. You can't help but spin the dreidel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">x bed</command>
+        <result xml:space="preserve">A solid steel bed frame, bolted to the floor. It looks like it hasn't moved in decades.
+
+On the steel bed frame is a raggedy old mattress.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">x bed</command>
+        <result xml:space="preserve">An old metal bed frame half rusted away. Seems like it's bolted to the floor and hasn't moved in decades.
+
+On the metal bed frame is a raggedy old mattress.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">take dreidel</command>
+        <result xml:space="preserve">Taken.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">The dreidel spins gracefully on the metal table's surface. You watch it for a while but it doesn't seem to be slowing down.
+
+"rotating of the old wooden dreidel" = truth state: true
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">take dreidel</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that shimmer in the light. It feels oddly out of place here.
+
+The inscriptions catch your eye. They're symbols from a language lost to time, yet they seem to spark a deep memory within you. You can't help but spin the dreidel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">sping</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">spin</command>
+        <result xml:space="preserve">What do you want to spin?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">dreidel</command>
+        <result xml:space="preserve">You need to take the dreidel first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">x room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">x chamber</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">you are here</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that shimmer in the light. It feels oddly out of place here.
+
+The inscriptions catch your eye. They're symbols from a language lost to time, yet they seem to spark a deep memory within you. You can't help but spin the dreidel.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an old wooden dreidel
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">The dreidel spins gracefully on the surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+The dreidel spins gracefully on the steel table's surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">spin bed</command>
+        <result xml:space="preserve">That doesn't seem to spin very well.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">pull bed</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">move bed</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">test</command>
+        <result xml:space="preserve">&gt;--&gt; The following tests are available:
+'test me'
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">tes me</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">test me</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] look
+Chamber
+You find yourself in a stark, dimly lit chamber. There's no door or window, and the walls are cold and unyielding.
+
+You can see a steel bed frame (on which is a raggedy old mattress) and a steel table here.
+
+&gt;[2] examine bed frame
+A solid steel bed frame, bolted to the floor. It looks like it hasn't moved in decades.
+
+On the steel bed frame is a raggedy old mattress.
+
+&gt;[3] examine mattress
+This mattress has seen better days. It's thin, torn, and the stuffing is coming out, making it anything but comfortable.
+
+&gt;[4] examine table
+A heavy steel table, secured to the ground. It's cold to the touch, with nothing on it.
+
+&gt;[5] examine dreidel
+An intricately carved dreidel, with gold color inscriptions that shimmer in the light. It feels oddly out of place here.
+
+The inscriptions catch your eye. They're symbols from a language lost to time, yet they seem to spark a deep memory within you. You can't help but spin the dreidel.
+
+&gt;[6] take dreidel
+You already have that.
+
+&gt;[7] spin dreidel
+The dreidel spins gracefully on the surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+The dreidel spins gracefully on the steel table's surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] look
+[2] examine bed frame
+[3] examine mattress
+[4] examine table
+[5] examine dreidel
+[6] take dreidel
+[7] spin dreidel
+</commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">examine bed frame</command>
+        <result xml:space="preserve">A solid steel bed frame, bolted to the floor. It looks like it hasn't moved in decades.
+
+On the steel bed frame is a raggedy old mattress.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">push table</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">spin the dreidel</command>
+        <result xml:space="preserve">The dreidel spins gracefully on the surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+The dreidel spins gracefully on the steel table's surface, eventually coming to a stop. Watching it spin, you feel a momentary sense of peace in this bleak chamber.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">move bed</command>
+        <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">spin the dreidel</command>
+        <result xml:space="preserve">Well you can't do that by looking at it.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">x bed</command>
+        <result xml:space="preserve">An old metal bed frame half rusted away. Seems like it's bolted to the floor and hasn't moved in decades.
+
+On the metal bed frame is a raggedy old mattress.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">x mattress</command>
+        <result xml:space="preserve">This mattress has seen better days. It's thin, torn, and the stuffing's is coming out... wait are those brown spots moving?
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">Ahh another beautiful piece of contemporary furniture. The mostly rusted plain metal table.
+
+On the metal table is an old wooden dreidel.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that seem to shimmer a rainbow in the little bit of light provided by the room light. The inscriptions are beautiful but they're definitely not anything you've seen before. 
+
+Seems like the only redeeming quality of this depressing ass room.
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an old wooden dreidel
+
+"rotating of the old wooden dreidel" = truth state: false
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">Well you can't do that by looking at it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">take dreidel</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">drop dreidel</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">You need to take the dreidel first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">spin bed</command>
+        <result xml:space="preserve">That doesn't seem to spin very well.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">You need to take the dreidel first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">x dreidel</command>
+        <result xml:space="preserve">An intricately carved dreidel, with gold color inscriptions that seem to shimmer a rainbow in the little bit of light provided by the room light. You can't tell what the inscriptions mean but they're definitely not anything you've seen before. 
+
+Seems like the only redeeming quality of this depressing ass room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">drop dreidel</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">spin dreidel</command>
+        <result xml:space="preserve">You need to take the dreidel first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
